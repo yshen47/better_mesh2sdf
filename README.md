@@ -15,4 +15,6 @@ to every SDF query point location, and count the number of ray-mesh intersection
 ## Requirements
 1. Hole-free Mesh with good normal estimation 
 
-Check example.py for details
+
+## Usage
+Simply copy paste better2mesh folder into your project, and then check example.py for usage.
