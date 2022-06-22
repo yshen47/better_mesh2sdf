@@ -9,7 +9,7 @@ This repository is modified on top of mesh2sdf python API (https://pypi.org/proj
 
 Alternatively, this respository gives a cleaner, faster and more accurate implementation of mesh2SDF. Our solution works for non-watertight and watertight 3D mesh. 
 In our solution, we need to first provide the script with a 3D point location, dubbed as guidance point, which we know 100% is outside of the given 3D mesh. And then we shoot rays from the guidance point 
-to every SDF query point location, and count the number of ray-mesh intersections between each SDF query points and the guidance points. 
+to every SDF query point location, and count the number of ray-mesh intersections between each SDF query points and the guidance points. If there is odd number of ray-mesh intersection, then the sign of the SDF query point should be the opposite to the SDF sign at the guidance point, and vice versa.
 
 
 ## Requirements
