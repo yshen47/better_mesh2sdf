@@ -2,7 +2,7 @@
 A fast and accurate method that convert 3d mesh to SDF
 
 ## Introduction of methods
-This repository is modified on top of mesh2sdf python API. Despite a good starting point, there are a bunch of issues when using the original mesh2sdf. 
+This repository is modified on top of mesh2sdf python API (https://pypi.org/project/mesh-to-sdf/). Despite a good starting point, there are a bunch of issues when using the original mesh2sdf. 
 
 1. For both their sampling and scan based methods, the sign of SDF field is incorrect for many non-watertight objects. A example obj mesh is included in this repository
 2. The "scan" surface point cloud sampling procedure significantly slows down the SDF calculation. 
