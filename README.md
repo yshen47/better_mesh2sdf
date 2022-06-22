@@ -17,4 +17,4 @@ to every SDF query point location, and count the number of ray-mesh intersection
 
 
 ## Usage
-Simply copy paste better2mesh folder into your project, and then check example.py for usage.
+Simply copy paste better_mesh2sdf folder into your project, and then check example.py for usage.
